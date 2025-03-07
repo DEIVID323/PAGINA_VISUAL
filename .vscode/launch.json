@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "type": "chrome",
-        "request": "launch",
-        "name": "Adjuntar al navegador",
-        "port": 9222,
-        "webRoot": "${workspaceFolder}"
-      }
-    ]
-  }
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Abrir en Chrome",
+      "file": "${file}",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

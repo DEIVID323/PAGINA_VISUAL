@@ -1,23 +1,20 @@
+
 #p
 {
     background-color: red;
 }
-
 .tomate
 {
-    border: 2px solid tomato;
+    border:2px solid tomato;
 }
-
 .naranja
 {
-    border: 2px solid orange;
+    border:2px solid orange;
 }
-
 #azul
 {
     background-color: blue;
 }
-
 #verde
 {
     background-color: green;

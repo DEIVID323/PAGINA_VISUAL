@@ -5,13 +5,14 @@ p
     margin-right: 50px ;
     margin-bottom: 80px;
     margin-left: 44px;*/
-    margin: 80px 50px 40px 58px;/*arriba derecha abajo izquierdo*/
+    margin: 80px 50px 40px 58px;
+    border: solid green; /*arriba derecha abajo izquierdo*/
 }
 h6
 {
     border: 1px solid green;
     margin: 80px 80px ;
-    /*primer valor superior inferior segundo valor derecha izqierda*/ 
+    /*primer valor superior inferior segundo valor derecha izqierda*/
 
 }
 h5
