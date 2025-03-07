@@ -1,0 +1,26 @@
+h3 /*seletor simple */
+{
+    color:rgb(0, 255, 255);
+}
+#par1 /*selector por ID*/
+{ color: rgba(0, 60, 255, 0.575); }
+
+#par2 /*selector por ID*/
+{
+    color:rgba(255, 81, 1, 0.996);
+    text-align: center;
+}
+.texto /*selector por clase*/
+{
+ color:rgb(60, 4, 75);
+ text-align: center;
+}
+
+*
+{
+    text-align: center;
+
+}
+
+
+
