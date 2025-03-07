@@ -4,7 +4,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Abrir Proyecto",
+            "name": "Abrir proyecto",
             "url": "http://localhost:5500/",
             "webRoot": "${workspaceFolder}"
         }
