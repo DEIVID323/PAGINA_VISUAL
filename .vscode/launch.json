@@ -7,7 +7,7 @@
           "request": "launch",
           "name": "Abrir en Chrome",
           "file": "${file}",
-          "runtimeArgs": ["--new-window"],
+          "runtimeArgs": [],
           "webRoot": "${workspaceFolder}"
       }
   ]
