@@ -1,13 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
-      {
-          "type": "chrome",
-          "request": "launch",
-          "name": "Abrir en Chrome",
-          "url": "http://localhost:5501", 
-          "webRoot": "${workspaceFolder}",
-          "runtimeArgs": []
-      }
-  ]
+  {
+    "type": "chrome",
+    "request": "launch",
+    "name": "Abrir en Chrome",
+    "url": "http://localhost:5500",
+    "webRoot": "${workspaceFolder}",
+    "runtimeArgs": ["--new-window"]
+  }
+]
 }
