@@ -1,14 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-       
-       
-        {
-            "name": "Abrir con Live Server",
-            "type": "chrome",
-            "request": "launch",
-            "url": "http://localhost:5500/${fileBasename}",
-            "webRoot": "${workspaceFolder}"
-        }
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Abrir con Chrome",
+        "url": "http://127.0.0.1:5500/",
+        "webRoot": "${workspaceFolder}"
+      }
     ]
-}
+  }
