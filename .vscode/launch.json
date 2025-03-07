@@ -3,9 +3,9 @@
     "configurations": [
       {
         "type": "chrome",
-        "request": "launch",
-        "name": "Abrir con Chrome",
-        "url": "http://127.0.0.1:5500/",
+        "request": "attach",
+        "name": "Adjuntar al navegador",
+        "port": 9222,
         "webRoot": "${workspaceFolder}"
       }
     ]
