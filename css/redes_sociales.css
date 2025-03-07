@@ -48,9 +48,7 @@ background-size: cover;
 }
 
 .icon {
-    font-size: 24px;
-    color: white;
-    
+    transition: transform .3s;
 }
 
 .item:hover .icon {
