@@ -25,9 +25,11 @@ nav ul
     overflow: hidden;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 nav ul li 
 {
+    margin: 5px 10px; 
     float: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -42,5 +44,20 @@ nav ul li a
 }
 nav ul li :hover
 {
+    border-radius: 5px;
     background: blue;
+}
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Apila los elementos en una columna */
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%; /* Hace que los elementos ocupen todo el ancho */
+    }
+
+    nav ul li a {
+        padding: 10px; /* Reduce el padding en pantallas pequeñas */
+    }
 }
