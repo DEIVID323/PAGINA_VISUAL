@@ -3,7 +3,7 @@
     "configurations": [
       {
         "type": "chrome",
-        "request": "attach",
+        "request": "launch",
         "name": "Adjuntar al navegador",
         "port": 9222,
         "webRoot": "${workspaceFolder}"
