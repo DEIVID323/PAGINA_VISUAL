@@ -25,6 +25,8 @@ nav ul
     overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 10;
     flex-wrap: wrap;
 }
 nav ul li 
