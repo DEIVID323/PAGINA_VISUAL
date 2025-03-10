@@ -35,9 +35,6 @@ body {
 
 
     .container h1{
-        margin-top: 0;
-        padding-top: 50px;
-        text-align: center;
         font-size: 35px;
         margin: -10px 0;
     }
@@ -132,11 +129,11 @@ form{ width: 100%; }
     justify-content: center;
 }
 
-    .social-icons a{
+    .social-icons a {
         display: inline-flex;
         padding: 10px;
         background-color: #000000;
-        border: 2px solid #ccc;
+        border: 2px solid #ffffff;
         border-radius: 12px;
         font-size: 24px;
         color: #ff0000;
@@ -210,6 +207,7 @@ form{ width: 100%; }
         border: 1.8px solid #ff0101;
         border-radius: 15px;
         box-shadow: none;
+        margin-top: 10px;
         
     }
     .toggle-panel .btn:hover{
@@ -264,7 +262,12 @@ form{ width: 100%; }
             .container.active .toggle-panel.toggle-right{ bottom: 0; }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 650px){
+    .social-icons a{
+        font-size: 18px;
+        padding: 8px;
+
+    }
     .form-box { padding: 20px; }
 
     .toggle-panel h1{font-size: 30px; }
