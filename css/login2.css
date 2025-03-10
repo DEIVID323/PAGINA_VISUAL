@@ -110,7 +110,8 @@ transition: 0.3s eases;
 box-shadow: 0 0 15px #ff0000;
 }
 button:hover {
-box-shadow: 0px 0px 10px #ff0000,
+box-shadow: 
+0px 0px 10px #ff0000,
  0px 0px 40px  #ff0000,
  0px 0px 60px  #ff0000;
 }
