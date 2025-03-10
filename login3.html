@@ -1,26 +1,91 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
-      rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>login3</title>
     <link rel="stylesheet" href="css/login3.css">
-    <title>LOGIN 3</title>
-  </head>
-<body>
-    <div class="envloper-wrapper">
-        <div id="envelope" class="close">
-            <div class="front flap"></div>
-            <div class="front pocket"></div>
-            <div class="latter">
-                <div class="words line 1">to crush</div>
+</head>
+  <body>
 
-            </div>
-        </div>
-    </div>
-</body>
+      <div class="container">
+          <div class="form-box login">
+              <form action="#">
+                  <h1>INICIAR SESION</h1>
+                  <div class="input-box">
+                      <input type="text" placeholder="INGRESA TU CORREO" required>
+                      <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="password" placeholder="INGRESA TU CONTRASEÑA" required>
+                      <i class='bx bxs-lock-alt' ></i>
+                  </div>
+                  <div class="forgot-link">
+                      <a href="#">HAS OLVIDADO TU CONTRASEÑA?</a>
+                  </div>
+                  <button type="submit" class="btn">INICIAR SESION</button>
+                  <p>INICIAR CON </p>
+                  <div class="social-icons">
+                      <a href="#"><i class='bx bxl-google' ></i></a>
+                      <a href="#"><i class='bx bxl-facebook' ></i></a>
+                  </div>
+              </form>
+          </div>
+
+          <div class="form-box register">
+              <form action="#">
+                  <h1>Registration</h1>
+                  <div class="input-box">
+                      <input type="text" placeholder="Username" required>
+                      <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="email" placeholder="Email" required>
+                      <i class='bx bxs-envelope' ></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="password" placeholder="Password" required>
+                      <i class='bx bxs-lock-alt' ></i>
+                  </div>
+                  <button type="submit" class="btn">Register</button>
+                  <p>or register with social platforms</p>
+                  <div class="social-icons">
+                      <a href="#"><i class='bx bxl-google' ></i></a>
+                      <a href="#"><i class='bx bxl-facebook' ></i></a>
+                      <a href="#"><i class='bx bxl-github' ></i></a>
+                      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+              </form>
+          </div>
+
+          <div class="toggle-box">
+              <div class="toggle-panel toggle-left">
+                 <h1>Welcome Back!</h1>
+                  <p>NO TIENES CUENTA?</p>
+                  <button class="btn register-btn">REGISTRARSE</button>
+              </div>
+
+              <div class="toggle-panel toggle-right">
+                  <h1>Welcome Back!</h1>
+                  <p>YA TIENES CUENTA?</p>
+                  <button class="btn login-btn">INICIAR SESION</button>
+              </div>
+          </div>
+      </div>
+
+      <script>
+        const container = document.querySelector('.container');
+const registerBtn = document.querySelector('.register-btn');
+const loginBtn = document.querySelector('.login-btn');
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add('active');
+})
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove('active');
+})
+      </script>
+  </body>
 </html>
