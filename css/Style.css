@@ -38,6 +38,8 @@ nav ul li
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+
+
 nav ul li a
 {
     cursor:pointer;
@@ -47,6 +49,7 @@ nav ul li a
     text-decoration: none;
 
 }
+
 nav ul li :hover
 {
 
