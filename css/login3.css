@@ -111,7 +111,7 @@ form{ width: 100%; }
     --xp: 0;
     --yp: 0;
     --hue: calc(0 + (var(--xp) * 500));
-    --bg: hsl(0 0% 10%);
+    --bg: hsl(0, 0%, 0%);
     --size: 100px;
     --glow: radial-gradient(
             50% 50% at center,
@@ -155,7 +155,7 @@ button::before {
 }
 
 button span {
-    background: var(--glow), rgb(255, 1, 1);
+    background: var(--glow), rgb(255, 255, 255);
     background-clip: text;
     color: transparent;
     height: 100%;
