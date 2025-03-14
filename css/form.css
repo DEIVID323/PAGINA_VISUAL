@@ -1,12 +1,10 @@
-body {
-    background-color: rgb(46, 158, 227);
-}
+
 
 form {
     margin: 0 auto;
     width: 400px;
     padding: 16px;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 16px;
 }
 ul {
@@ -15,7 +13,7 @@ ul {
     margin: 0;
 
 }
-form li+li {
+form li + li {
     margin: 1em;
 
 }
