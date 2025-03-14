@@ -12,7 +12,11 @@ ul {
     margin: 0;
 }
 
-
+form li  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
 
 label {
     display: inline-block;
